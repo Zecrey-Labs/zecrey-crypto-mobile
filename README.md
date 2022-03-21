@@ -244,40 +244,55 @@ type RemoveLiquiditySegmentFormat struct {
 ## Examples
 
 ```json
-> ElgamalDec('PSjJUWon0WV1gQA/SxovPRS0XCyVdGpq0O+Ttjh+ZBe38+GdDtFhVNMrDZQKtfaZ5e1oPkgO2LRoxTMGp1pPoQ==','959120971630916186538306178761323785168020249928470126158942387495545940088',0,20000)
+> ElgamalDec('B6mepb7SLpu6lbanLdaZz/qRlnqtW5DWjNY5g2ABwQ9HTWTCL5TRvcexHMy3jeS+e0X4FWhhgwGa0EZyJW7dFg==','2412895039494856025337225500873984828613068655721196706330793588044245440294',0,20000)
 
-> ElgamalRawDec('PSjJUWon0WV1gQA/SxovPRS0XCyVdGpq0O+Ttjh+ZBe38+GdDtFhVNMrDZQKtfaZ5e1oPkgO2LRoxTMGp1pPoQ==','959120971630916186538306178761323785168020249928470126158942387495545940088')
-# it will output "mbZvQoX6SeRGKk/KtzmseBv/mUDHGFHKeEzk0e6eMyg="
+> ElgamalRawDec('B6mepb7SLpu6lbanLdaZz/qRlnqtW5DWjNY5g2ABwQ9HTWTCL5TRvcexHMy3jeS+e0X4FWhhgwGa0EZyJW7dFg==','2412895039494856025337225500873984828613068655721196706330793588044245440294')
+
 
 
 // withdraw fee id is the different from asset id, cost 2050.8ms
-> ProveWithdraw('{"account_index": 1, "c":"m3jEfxmLrL9xXmr8hRjw2ddRuS9LD+ylbdr3w0JMuRZMdG3aiLo+hfDOezMSeXXiw+Jk2U/967RLC99qhgBTqA==", "pk":"fhtYaJmDcV93EuGRJUkiPQkgk+dr4mLKFdayOsiPKZo=","b":8, "b_star":2,"sk":"1534761834718427049701159954173450085001264109697049531015992277578747248868","asset_id":1,"chain_id":1,"receive_addr":"0xE9b15a2D396B349ABF60e53ec66Bcf9af262D449","c_fee":"m3jEfxmLrL9xXmr8hRjw2ddRuS9LD+ylbdr3w0JMuRbKvX/UaPrH9qMqHt7ddc//CQC7tdM9W7Cu1gPoFVpZKQ==", "b_fee":10, "gas_fee_asset_id": 2, "gas_fee": 1}')
+> ProveWithdraw('{"account_index": 1, "c":"MUnFvRWaBdJxsVn48aksnmonpSQRIY+4Q/9/5LMvZZqWUPxdKy4iKj/RWmP+CULYO1dDKt1lA9dEZp03TNzVoA==", "pk":"Od3487/nVmmZ/+Ou5zglQRPn1EzJjyGvWseg/WRQfhQ=","b":8, "b_star":2,"sk":"1438221884033878467789858739854179921911672100180080251198301404658704885569","asset_id":1,"chain_id":1,"receive_addr":"0xE9b15a2D396B349ABF60e53ec66Bcf9af262D449","c_fee":"MUnFvRWaBdJxsVn48aksnmonpSQRIY+4Q/9/5LMvZZrn/2E7OTsZxipdobDDEWpRRpI6ZnJpUXcE2etUPDVckA==", "b_fee":10, "gas_fee_asset_id": 2, "gas_fee": 1}')
 
 // withdraw fee id is the same with asset id, cost 1030.3ms
-> ProveWithdraw('{"account_index": 1, "c":"m3jEfxmLrL9xXmr8hRjw2ddRuS9LD+ylbdr3w0JMuRZMdG3aiLo+hfDOezMSeXXiw+Jk2U/967RLC99qhgBTqA==", "pk":"fhtYaJmDcV93EuGRJUkiPQkgk+dr4mLKFdayOsiPKZo=","b":8, "b_star":2,"sk":"1534761834718427049701159954173450085001264109697049531015992277578747248868","asset_id":1,"chain_id":1,"receive_addr":"0xE9b15a2D396B349ABF60e53ec66Bcf9af262D449","c_fee":"m3jEfxmLrL9xXmr8hRjw2ddRuS9LD+ylbdr3w0JMuRZMdG3aiLo+hfDOezMSeXXiw+Jk2U/967RLC99qhgBTqA==", "b_fee":8, "gas_fee_asset_id": 1, "gas_fee": 1}')
+> ProveWithdraw('{"account_index": 1, "c":"1x8wtb11G3Ic5xlWcXg+QPCuN21t8Wck5EMB90JiNIO+Ug9QTdeWpIiKyvUpc+Pa26jnhKaK0u8RHpTMKWgZhw==", "pk":"EA9TG27GPrIsJFrl0RjMOrUo4N6UNYFhgujpkpPAt44=","b":8, "b_star":2,"sk":"803627389714547802166494311754097674233988430931225503358126950464409918717","asset_id":1,"chain_id":1,"receive_addr":"0xE9b15a2D396B349ABF60e53ec66Bcf9af262D449","c_fee":"1x8wtb11G3Ic5xlWcXg+QPCuN21t8Wck5EMB90JiNIO+Ug9QTdeWpIiKyvUpc+Pa26jnhKaK0u8RHpTMKWgZhw==", "b_fee":8, "gas_fee_asset_id": 1, "gas_fee": 1}')
 
 
-> ProveTransfer(1,1,'memo','[{"account_index":3,"balance_enc":"culWuzSA5GRNhmcW6PLnXFjEc5d6JHpO2T/bG7IVuw8kOkOYYJhhZR+1r22wvxDPM6TkPcG/i1w1q2UrUpcSpQ==", "balance":8,"pk":"uwZoQvXbsFtby4jMF8UBJb0JBXNsbpH4QSZsbZLmmiU=", "b_delta":-5,"sk":"223002292175769838011695137402304499871279309578783082705927886091292349997"},{"account_index":5,"balance_enc":"E+14t4Lw1mPaLz9Acz9go4DZ6LGo02np/rFQ1VUc3yziqGPjUvlUCZ3eH/eO/jYFXXa48POdYLmd2SL/QFybhw==", "pk":"PGEQNN9JrovV1YDv4xZeqVmlCWBHSXVkWKpSXyq2ywo=", "b_delta":1},{"account_index":7,"balance_enc":"k9puKUl1T5cT+mvpIsnlMNouoq1REbqkzXdG2E5yO7DmbGKYGTu0rDhPGY389Fy7tOqkvhYaMo/d4AzgqD/0kg==", "pk":"TNMIpxqvfQ0qSLEeUjvfm7HqtkGZVkI5ENZQZqE1/Qw=", "b_delta":3}]')
+> ProveTransfer(1,1,'memo','[{"account_index":3,"balance_enc":"B6mepb7SLpu6lbanLdaZz/qRlnqtW5DWjNY5g2ABwQ9HTWTCL5TRvcexHMy3jeS+e0X4FWhhgwGa0EZyJW7dFg==", "balance":8,"pk":"WemZmInuROMWJ7s7CCd8TfagFt0prUx2rsQJ5JSHxpQ=", "b_delta":-3,"sk":"2412895039494856025337225500873984828613068655721196706330793588044245440294"},{"account_index":5,"balance_enc":"f4iCw/fkN/XteL0F5BxYdzEhC3LtCCBunQTQPsji4oRoSmQsTjbcRiNpHstZOuoPL4Mi9S13IxgCS5HczvQ7Ig==", "pk":"E/uUTftGKgNxX5tN69VZ0cQ/v3SlAEvayZtfzXkmFhU=", "b_delta":2},{"account_index":7,"balance_enc":"+X6TfYgXylWApwfRu5r/yljiat2KiiZfJ4nlklEgLhhF+HABklShFk38O27PrBUBc8sqwQWJ6fx/X0hu39wOsA==", "pk":"YE3+IpzjoJMraV5qwqvWLx72w8VqaYCjzcv3BCVx6yg=", "b_delta":0}]')
 
 // unlock, cost 1060ms
-> ProveUnlock('{"chain_id": 1, "account_index": 3, "asset_id": 1, "balance": 10, "delta_amount": 2, "sk": "2041493538597675324666410744453729837490088098575671299940549194878600064888","c_fee": "O5c1cdSBhFUD0EFbvgZxzrXUptspSGrCzz04XaMhRyqOsR0LXpAMAoQEf2JLonpgDq0r9Jh87v7EfTd8OWIGBg==","b_fee":100,"gas_fee_asset_id":1,"gas_fee":1}')
+> ProveUnlock('{"chain_id": 1, "account_index": 3, "asset_id": 1, "balance": 10, "delta_amount": 2, "sk": "985253509020469179886479720098323033600454726558550567900153542576169224206","c_fee": "6hvbxZnLdH+EWKuniu3zhR7S/XMvo85GlMk1d7YfK6ivnJadi8+tntBl3E8t14Me1PHb6Lawtk+9nyrxa+XRoQ==","b_fee":100,"gas_fee_asset_id":1,"gas_fee":1}')
 
 // swap fee id is different from asset A id, cost 2051ms
 > ProveSwap('{"pair_index": 1, "account_index": 3, "c_u_a":"SzmequMLDzrCHitd1Hw2OfFUR9z5aoU/kGR5oJSHHafZrpEwOqbFtORhrfUkJFnpvA3rCWBpbrxgkY8MNCLKmQ==","pk_u":"G0KF3I8ZZWGX/qgdfFr8vodCaIHJ7Z//HrrWOy4jgxI=","pk_treasury":"ihHiw/wo0bYWrjDCm/e9LInpioTRUo0qSin5La0+1wY=","asset_a_id":1,"asset_b_id":2,"b_a_delta":1000,"b_u_a":2000,"min_b_b_delta":960,"fee_rate":30,"treasury_rate":10,"sk_u":"1020823131272693259381832026202869246252296047354804352294128070898636555720","c_fee":"RoudhBBVGj8HXjekzbwz6HixXgQL9UcCv7FayWHINyyyEM5PvH5E/8NW2qFwOwyL6s9Fpz0T0ZCfFlqcGuMAlA==","b_fee":1000,"gas_fee_asset_id":2,"gas_fee":30}')
 
 // swap fee id is the same with asset A id, cost 1069ms
-> ProveSwap('{"pair_index": 1, "account_index": 3, "c_u_a":"SzmequMLDzrCHitd1Hw2OfFUR9z5aoU/kGR5oJSHHafZrpEwOqbFtORhrfUkJFnpvA3rCWBpbrxgkY8MNCLKmQ==","pk_u":"G0KF3I8ZZWGX/qgdfFr8vodCaIHJ7Z//HrrWOy4jgxI=","pk_treasury":"ihHiw/wo0bYWrjDCm/e9LInpioTRUo0qSin5La0+1wY=","asset_a_id":1,"asset_b_id":2,"b_a_delta":1000,"b_u_a":2000,"min_b_b_delta":960,"fee_rate":30,"treasury_rate":10,"sk_u":"1020823131272693259381832026202869246252296047354804352294128070898636555720","c_fee":"SzmequMLDzrCHitd1Hw2OfFUR9z5aoU/kGR5oJSHHafZrpEwOqbFtORhrfUkJFnpvA3rCWBpbrxgkY8MNCLKmQ==","b_fee":2000,"gas_fee_asset_id":1,"gas_fee":30}')
+> ProveSwap('{"pair_index": 1, "account_index": 3, "c_u_a":"7puBWwapdu+GqxGyy4kEqOKGiULsqTiq23qqTPBgTAkoLwkIiEZ/Kdp0TRXhKXA6uCEcsJNMOpj6FCL5Q2ZyAA==","pk_u":"puA4PcXt+YY8cquX2YIZJ4BQpuu/Rf7hSBZIyBSgK58=","pk_treasury":"f/ntbSwVmqseGk4PG1ZUtSZeNzFnBGhJOgYAui7dbgc=","asset_a_id":1,"asset_b_id":2,"b_a_delta":1000,"b_u_a":2000,"min_b_b_delta":960,"fee_rate":30,"treasury_rate":10,"sk_u":"1981415624984032196223106065637130805092233720971997297784981306710264131399","c_fee":"8PU6Ku5SYsF0Pfw2EjL1rPHryO+zZDp5HZXbv8i9YSPZh6IB4+dwl5YzxyVSwV4FllsBjQ5mxSs6C26uIlnSFw==","b_fee":2000,"gas_fee_asset_id":1,"gas_fee":30}')
 
 // remove liquidity, cost 2140ms
-> ProveRemoveLiquidity('{"pair_index":1,"account_index":3,"c_u_lp": "Z2usrAI8R6kTMPffQhenwofQNVbkuJOTbrV7VaoRDRmt3oDCs44OxoOeJUqwTRQp+G8TSlHt5s3BISkalrxkIg==", "pk_u": "8bJEpTgnV8lP0IoSCJkPiDlQqgJHtBhgorhVYsoAPZk=", "b_lp": 100, "delta_lp": 10, "min_b_a_delta": 1, "min_b_b_delta": 1, "asset_a_id": 1, "asset_b_id":2, "sk_u":"1772011849687470205402847695523573350402569355483737674338513374359825296680", "c_fee":"uD3Dg5Sb8IuTHDbyjb4fQUUlFAdElFpx13zuge5hYYvYLn3iwqle8R6IHTp7PKLlcLg9tu+qXU6jhaDkAXAnEA==", "b_fee": 100, "gas_fee_asset_id": 1, "gas_fee": 1}')
+> ProveRemoveLiquidity('{"pair_index":1,"account_index":3,"c_u_lp": "OlvjmVM9T0Ub6HZIiW24gVuQuWPcohXtAeZ8Z7w8bhF4OP9FtIYZwSJLgePdzS6rJKISMlHZ3r5oP4SUNDTQoA==", "pk_u": "BWdP3HjnM6JajROHnsQVY+T+OqGI8F45bopPZXow65I=", "b_lp": 100, "delta_lp": 10, "min_b_a_delta": 1, "min_b_b_delta": 1, "asset_a_id": 1, "asset_b_id":2, "sk_u":"10038928496977858332086779290504188602365215894270688735065347453481002991", "c_fee":"uD3Dg5Sb8IuTHDbyjb4fQUUlFAdElFpx13zuge5hYYvYLn3iwqle8R6IHTp7PKLlcLg9tu+qXU6jhaDkAXAnEA==", "b_fee": 100, "gas_fee_asset_id": 1, "gas_fee": 1}')
 
 // add liquidity fee id is different from asset A & B id, cost 3167ms
-> ProveAddLiquidity('{"pair_index": 1, "account_index": 3, "c_u_a": "2gB49VKh7a2f6h3JGV0E/RDOQSIAMCzmBYLRezjkRIKuCep4r8/d3QlumgkRif6TCOmiVTrOWdsVwuy/CgKckA==", "c_u_b": "Wb/lsXjdM7z3iMy8BIMbVMWkWnpZYjaE51pNib4aBQUEbGVxm4YOHlVDS2w/AOnPwK2ACXS0aFPibAr98b2fiw==", "pk_pool": "c+wRqnuOTmf0NPaODB4X2509YbcWKwnmS3FAsWAl8RI=", "pk_u":"3+UC4GQtoTeOlbrdCyXsOZ2RTRlrrBJ/YqUJrHaOcAM=", "asset_a_id":1, "asset_b_id": 2, "b_u_a": 8, "b_u_b":4,"b_a_delta": 1, "b_b_delta": 1,"sk_u":"1118266912864228166266853607897072317618597295146579649989703085257983434856", "c_fee": "JSMbRnfH21L6yBYVY2obt1YeiLeCeaN0opI5eiszwCzoS0ecC/wKHJG5lCqSbKkadaHkNEBLNFFKCfSbvGNuIQ==", "b_fee":100, "gas_fee_asset_id": 3, "gas_fee": 10}')
+> ProveAddLiquidity('{"pair_index": 1, "account_index": 3, "c_u_a": "EJTRbrC1xUdFb1BEtGL43Z6FYq3vs+xb6dUPtMCPPy+TSBPZqWFysOrvdTChPztqotvNMRwAHxMKKjtMJeokmw==", "c_u_b": "xpj+0xoiT0uSpOJUTP9Bf/HdVIMxAVXDGgO5jeA0pxqpsG51ajfY/m36q9aH4xKz5GWGY7Hq8OPSoNJQbZOqkg==", "pk_pool": "9PGD33Y1p+cescTaTdcLTXzqaKrg/PgMfa074e0AUyc=", "pk_u":"VRKMAo05ZddH7YnolzFjVxd7CS3dWlLeNssAYc3HDYY=", "asset_a_id":1, "asset_b_id": 2, "b_u_a": 8, "b_u_b":4,"b_a_delta": 1, "b_b_delta": 1,"sk_u":"72251987661699258620091828476069925445607709842076222212462549135814450325", "c_fee": "QLklxZ+Tp5C08vzEqLnR1yhhJK2fYsykizm/Vx5nxyDILH4vQa1xxKE/HypkXAr2/KPT/IfOOWk6pSMHF0oNHQ==", "b_fee":100, "gas_fee_asset_id": 3, "gas_fee": 10}')
 
 // add liquidity fee id is the same with asset A id, cost 2304ms
-> ProveAddLiquidity('{"pair_index": 1, "account_index": 3, "c_u_a": "2gB49VKh7a2f6h3JGV0E/RDOQSIAMCzmBYLRezjkRIKuCep4r8/d3QlumgkRif6TCOmiVTrOWdsVwuy/CgKckA==", "c_u_b": "Wb/lsXjdM7z3iMy8BIMbVMWkWnpZYjaE51pNib4aBQUEbGVxm4YOHlVDS2w/AOnPwK2ACXS0aFPibAr98b2fiw==", "pk_pool": "c+wRqnuOTmf0NPaODB4X2509YbcWKwnmS3FAsWAl8RI=", "pk_u":"3+UC4GQtoTeOlbrdCyXsOZ2RTRlrrBJ/YqUJrHaOcAM=", "asset_a_id":1, "asset_b_id": 2, "b_u_a": 8, "b_u_b":4,"b_a_delta": 1, "b_b_delta": 1,"sk_u":"1118266912864228166266853607897072317618597295146579649989703085257983434856", "c_fee": "2gB49VKh7a2f6h3JGV0E/RDOQSIAMCzmBYLRezjkRIKuCep4r8/d3QlumgkRif6TCOmiVTrOWdsVwuy/CgKckA==", "b_fee":8, "gas_fee_asset_id": 1, "gas_fee": 1}')
+> ProveAddLiquidity('{"pair_index": 1, "account_index": 3, "c_u_a": "EJTRbrC1xUdFb1BEtGL43Z6FYq3vs+xb6dUPtMCPPy+TSBPZqWFysOrvdTChPztqotvNMRwAHxMKKjtMJeokmw==", "c_u_b": "xpj+0xoiT0uSpOJUTP9Bf/HdVIMxAVXDGgO5jeA0pxqpsG51ajfY/m36q9aH4xKz5GWGY7Hq8OPSoNJQbZOqkg==", "pk_pool": "9PGD33Y1p+cescTaTdcLTXzqaKrg/PgMfa074e0AUyc=", "pk_u":"VRKMAo05ZddH7YnolzFjVxd7CS3dWlLeNssAYc3HDYY=", "asset_a_id":1, "asset_b_id": 2, "b_u_a": 8, "b_u_b":4,"b_a_delta": 1, "b_b_delta": 1,"sk_u":"72251987661699258620091828476069925445607709842076222212462549135814450325", "c_fee": "EJTRbrC1xUdFb1BEtGL43Z6FYq3vs+xb6dUPtMCPPy+TSBPZqWFysOrvdTChPztqotvNMRwAHxMKKjtMJeokmw==", "b_fee":8, "gas_fee_asset_id": 1, "gas_fee": 1}')
 
 // add liquidity fee id is the same with asset B id, cost 2314ms
-> ProveAddLiquidity('{"pair_index": 1, "account_index": 3, "c_u_a": "2gB49VKh7a2f6h3JGV0E/RDOQSIAMCzmBYLRezjkRIKuCep4r8/d3QlumgkRif6TCOmiVTrOWdsVwuy/CgKckA==", "c_u_b": "Wb/lsXjdM7z3iMy8BIMbVMWkWnpZYjaE51pNib4aBQUEbGVxm4YOHlVDS2w/AOnPwK2ACXS0aFPibAr98b2fiw==", "pk_pool": "c+wRqnuOTmf0NPaODB4X2509YbcWKwnmS3FAsWAl8RI=", "pk_u":"3+UC4GQtoTeOlbrdCyXsOZ2RTRlrrBJ/YqUJrHaOcAM=", "asset_a_id":1, "asset_b_id": 2, "b_u_a": 8, "b_u_b":4,"b_a_delta": 1, "b_b_delta": 1,"sk_u":"1118266912864228166266853607897072317618597295146579649989703085257983434856", "c_fee": "Wb/lsXjdM7z3iMy8BIMbVMWkWnpZYjaE51pNib4aBQUEbGVxm4YOHlVDS2w/AOnPwK2ACXS0aFPibAr98b2fiw==", "b_fee":4, "gas_fee_asset_id": 2, "gas_fee": 1}')
+> ProveAddLiquidity('{"pair_index": 1, "account_index": 3, "c_u_a": "EJTRbrC1xUdFb1BEtGL43Z6FYq3vs+xb6dUPtMCPPy+TSBPZqWFysOrvdTChPztqotvNMRwAHxMKKjtMJeokmw==", "c_u_b": "xpj+0xoiT0uSpOJUTP9Bf/HdVIMxAVXDGgO5jeA0pxqpsG51ajfY/m36q9aH4xKz5GWGY7Hq8OPSoNJQbZOqkg==", "pk_pool": "9PGD33Y1p+cescTaTdcLTXzqaKrg/PgMfa074e0AUyc=", "pk_u":"VRKMAo05ZddH7YnolzFjVxd7CS3dWlLeNssAYc3HDYY=", "asset_a_id":1, "asset_b_id": 2, "b_u_a": 8, "b_u_b":4,"b_a_delta": 1, "b_b_delta": 1,"sk_u":"72251987661699258620091828476069925445607709842076222212462549135814450325", "c_fee": "xpj+0xoiT0uSpOJUTP9Bf/HdVIMxAVXDGgO5jeA0pxqpsG51ajfY/m36q9aH4xKz5GWGY7Hq8OPSoNJQbZOqkg==", "b_fee":4, "gas_fee_asset_id": 2, "gas_fee": 1}')
 ```
 
+## How to use In React-Native 
+```
+import ZecreyLibModules from '../../zecrey-crypto-mobile';
+
+
+  ZecreyLibModules.elgamalRawDec('de', 'de', resp => {
+    if (resp.bflag === 1) {
+      console.warn('success', resp.ret);
+    } else {
+      console.warn('failure', resp.err);
+    }
+  });
+  
+  or other method param
+```
