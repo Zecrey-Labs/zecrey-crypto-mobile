@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift}"
   s.requires_arc = true
-  s.vendored_frameworks = 'ios/Zecrey.framework'
+  s.vendored_frameworks = 'ios/Zecrey.xcframework'
   s.dependency "React"
   # ...
   # s.dependency "..."
