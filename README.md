@@ -283,16 +283,16 @@ type RemoveLiquiditySegmentFormat struct {
 
 ## How to use In React-Native 
 ```
-import ZecreyLibModules from '../../zecrey-crypto-mobile';
+import ZecreyLibModules from 'com.zecrey.lib';
 
-
-  ZecreyLibModules.elgamalRawDec('de', 'de', resp => {
-    if (resp.bflag === 1) {
-      console.warn('success', resp.ret);
-    } else {
-      console.warn('failure', resp.err);
-    }
-  });
+ ZecreyLibModules.elgamalRawDec('dede','dede',(tagParam,result)=>{
+           console.log(tagParam,result)
+    })
+            
+                    
+ ZecreyLibModules.fromAddLiquiditySegmentJSON('dede',(tagParam,result)=>{
+             console.log(tagParam,result)
+    })
   
   or other method param
 ```
