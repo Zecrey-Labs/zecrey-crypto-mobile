@@ -285,13 +285,14 @@ type RemoveLiquiditySegmentFormat struct {
 ```
 import ZecreyLibModules from 'com.zecrey.lib';
 
-  ZecreyLibModules.fromAddLiquiditySegmentJSON('dede',(paramFlag,result)=>{
-       if (paramFlag.bflag === 1){
-          console.log(result.err)
-          }else {
-           console.log(result.ret)
-        }
-  })
+ ZecreyLibModules.elgamalRawDec('dede','dede',(tagParam,result)=>{
+           console.log(tagParam,result)
+    })
+            
+                    
+ ZecreyLibModules.fromAddLiquiditySegmentJSON('dede',(tagParam,result)=>{
+             console.log(tagParam,result)
+    })
   
   or other method param
 ```
