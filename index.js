@@ -9,10 +9,13 @@ class ZecreyLibModules {
     /*
     callback params status
       if (resp.bflag=== 1)
-     {console.warn("success",resp.ret)}
+     {console.warn("成功",resp.ret)}
      else
-     {console.warn("failure",resp.err)}
+     {console.warn("失败",resp.err)}
      */
+
+    static elgamalDec = (CStr: string, skStr: string, start: string, end: string, callback: any) => Zecreylib.elgamalDec(CStr, skStr, start, end, callback)
+    static elgamalEnc = (pkStr: string, b: string, callback: any) => Zecreylib.elgamalEnc(pkStr, b, callback)
     static elgamalRawDec = (CStr: string, skStr: string, callback: any) => Zecreylib.elgamalRawDec(CStr, skStr, callback)
     static fromAddLiquiditySegmentJSON = (segmentStr: string, callback: any) => Zecreylib.fromAddLiquiditySegmentJSON(segmentStr, callback)
     static fromRemoveLiquiditySegmentJSON = (segmentStr: string, callback: any) => Zecreylib.fromRemoveLiquiditySegmentJSON(segmentStr, callback)
