@@ -43,7 +43,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         long lvar = 0L;
         if (strIsEmpty(CStr)== true || strIsEmpty(skStr)== true || strIsEmpty(start)== true || strIsEmpty(end)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -53,7 +53,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -66,7 +66,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(pkStr)== true || strIsEmpty(b)== true  ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -76,7 +76,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -89,7 +89,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(CStr)== true || strIsEmpty(skStr)== true  ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -99,7 +99,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -112,7 +112,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(segmentStr)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -123,7 +123,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -136,7 +136,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(segmentStr)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -147,7 +147,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
 
@@ -161,7 +161,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(segmentStr)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -172,7 +172,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -185,7 +185,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(segmentStr)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -196,7 +196,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -209,7 +209,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(segmentStr)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -220,7 +220,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -233,7 +233,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(segmentInfo)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -243,7 +243,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -256,7 +256,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(segmentStr)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -266,7 +266,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -279,7 +279,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(skStr)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -289,7 +289,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -302,7 +302,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(segmentInfo)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -312,7 +312,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -325,7 +325,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(segmentInfo)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -335,7 +335,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -348,7 +348,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(assetId)== true || strIsEmpty(gasFee)== true || strIsEmpty(memo)== true || strIsEmpty(segmentInfosStr)== true){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -358,7 +358,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -371,7 +371,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(segmentInfo)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -381,7 +381,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);
@@ -394,7 +394,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         String lvar = "";
         if (strIsEmpty(segmentInfo)== true ){
             mResponse.putInt("bflag",0);
-            mResponse.putString("err", "参数不能为空");
+            mResponse.putString("err", "param not null");
         }
         else{
             try{
@@ -404,7 +404,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }catch(Exception ex){
                 ex.printStackTrace();
                 mResponse.putInt("bflag",0);
-                mResponse.putString("err", "接口调用错误");
+                mResponse.putString("err", "api error");
             }
         }
         callback.invoke(mResponse);

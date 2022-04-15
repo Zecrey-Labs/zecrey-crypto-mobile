@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
   # s.license    = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "Your Name" => "yourname@email.com" }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "git@github.com:Zecrey-Labs/zecrey-crypto-mobile.git" }
+  s.source       = { :git => "git@github.com:Zecrey-Labs/zecrey-crypto-mobile.git",:branch => "main" }
 
   s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift}"
   s.requires_arc = true
-
+  s.vendored_frameworks = 'ios/Zecrey.xcframework'
   s.dependency "React"
   # ...
   # s.dependency "..."
