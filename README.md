@@ -287,9 +287,9 @@ import ZecreyLibModules from 'com.zecrey.lib';
 
   ZecreyLibModules.fromAddLiquiditySegmentJSON('dede',(paramFlag,result)=>{
        if (paramFlag.bflag === 1){
-          console.log(result.err)
+          console.log(result.ret)
           }else {
-           console.log(result.ret)
+           console.log(result.err)
         }
   })
 
