@@ -56,7 +56,9 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
+
     }
 
     @ReactMethod
@@ -79,7 +81,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -102,7 +105,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -126,7 +130,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -151,7 +156,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
             }
         }
 
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -175,7 +181,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -199,7 +206,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -223,7 +231,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -246,7 +255,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -269,7 +279,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -292,7 +303,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -315,7 +327,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -338,7 +351,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -361,7 +375,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -384,7 +399,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
 
     @ReactMethod
@@ -407,7 +423,8 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 mResponse.putString("err", "api error");
             }
         }
-        callback.invoke(mResponse);
+//        callback.invoke(mResponse);
+        callback.invoke(new Object[]{mResponse.getInt("bflag"), mResponse.hasKey("ret")==true?mResponse.getString("ret"):mResponse.getString("err")});
     }
         
 }
