@@ -1,6 +1,8 @@
 // ZecreylibModule.java
 package com.reactlibrary;
 
+import android.util.Log;
+
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -90,7 +92,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
     }
@@ -109,7 +111,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
     }
@@ -128,7 +130,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
   }
@@ -147,7 +149,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
  }
@@ -166,7 +168,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
   }
@@ -185,7 +187,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
  }
@@ -203,7 +205,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
  }
@@ -221,7 +223,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
   }
@@ -239,7 +241,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
  }
@@ -258,7 +260,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
  }
@@ -276,7 +278,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
  }
@@ -295,7 +297,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
  }
@@ -314,7 +316,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
   }
@@ -333,7 +335,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
                 promise.resolve(lvar+"");
             }catch(Exception ex){
                 ex.printStackTrace();
-                promise.reject("0","result error");
+                promise.reject("0",ex.getMessage());
             }
         }
   }

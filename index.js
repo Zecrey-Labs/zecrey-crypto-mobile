@@ -12,21 +12,160 @@ class ZecreyLibModules {
              console.log(error)
     })
     */
-    static elgamalRawDec = (CStr: string, skStr: string) => Zecreylib.elgamalRawDec(CStr, skStr)
-    static fromAddLiquiditySegmentJSON = (segmentStr: string) => Zecreylib.fromAddLiquiditySegmentJSON(segmentStr)
-    static fromRemoveLiquiditySegmentJSON = (segmentStr: string) => Zecreylib.fromRemoveLiquiditySegmentJSON(segmentStr)
-    static fromSwapSegmentJSON = (segmentStr: string) => Zecreylib.fromSwapSegmentJSON(segmentStr)
-    static fromUnlockSegmentJSON = (segmentStr: string) => Zecreylib.fromUnlockSegmentJSON(segmentStr)
-    static fromWithdrawSegmentJSON = (segmentStr: string) => Zecreylib.fromWithdrawSegmentJSON(segmentStr)
-    static proveAddLiquidity = (segmentInfo: string) => Zecreylib.proveAddLiquidity(segmentInfo)
-    static fromTransferSegmentJSON = (segmentStr: string) => Zecreylib.fromTransferSegmentJSON(segmentStr)
-    static getL2PublicKey = (skStr: string) => Zecreylib.getL2PublicKey(skStr)
-    static proveRemoveLiquidity = (segmentInfo: string) => Zecreylib.proveRemoveLiquidity(segmentInfo)
-    static proveSwap = (segmentInfo: string) => Zecreylib.proveSwap(segmentInfo)
-    static proveTransfer = (assetId: string, gasFee: string, memo: string, segmentInfosStr: string) => Zecreylib.proveTransfer(assetId, gasFee, memo, segmentInfosStr)
-    static proveUnlock = (segmentInfo: string) => Zecreylib.proveUnlock(segmentInfo)
-    static proveWithdraw = (segmentInfo: string) => Zecreylib.proveWithdraw(segmentInfo)
 
+    static elgamalRawDec (CStr,skStr){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.elgamalRawDec(CStr,skStr)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static fromAddLiquiditySegmentJSON (segmentStr){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.fromAddLiquiditySegmentJSON(segmentStr)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static fromRemoveLiquiditySegmentJSON (segmentStr){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.fromRemoveLiquiditySegmentJSON(segmentStr)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static fromSwapSegmentJSON (segmentStr){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.fromSwapSegmentJSON(segmentStr)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static fromUnlockSegmentJSON (segmentStr){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.fromUnlockSegmentJSON(segmentStr)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static fromWithdrawSegmentJSON (segmentStr){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.fromWithdrawSegmentJSON(segmentStr)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static proveAddLiquidity (segmentInfo){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.proveAddLiquidity(segmentInfo)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static fromTransferSegmentJSON (segmentStr){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.fromTransferSegmentJSON(segmentStr)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static getL2PublicKey (skStr){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.getL2PublicKey(skStr)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static proveRemoveLiquidity (segmentInfo){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.proveRemoveLiquidity(segmentInfo)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static proveSwap (segmentInfo){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.proveSwap(segmentInfo)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static proveTransfer (assetId,gasFee,memo,segmentInfosStr){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.proveTransfer(assetId,gasFee,memo,segmentInfosStr)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static proveUnlock (segmentInfo){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.proveUnlock(segmentInfo)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
+
+    static proveWithdraw (segmentInfo){
+        return new Promise((resolve, reject)=>{
+            ZecreyLibModules.proveWithdraw(segmentInfo)
+              .then((result)=>{
+                  resolve(result)
+              }).catch((error)=>{
+                reject(error)
+            })
+        })
+    }
 }
 
 export default ZecreyLibModules;
