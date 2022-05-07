@@ -288,7 +288,7 @@ public class ZecreylibModule extends ReactContextBaseJavaModule {
         //public static native String proveTransfer(long assetId, long gasFee, String memo, String segmentInfosStr) throws Exception;
         mResponse = Arguments.createMap();
         String lvar = "";
-        if (strIsEmpty(assetId)== true || strIsEmpty(gasFee)== true || strIsEmpty(memo)== true || strIsEmpty(segmentInfosStr)== true){
+        if (strIsEmpty(assetId)== true || strIsEmpty(gasFee)== true || strIsEmpty(segmentInfosStr)== true){
             promise.reject("0","param not null");
         }
         else{

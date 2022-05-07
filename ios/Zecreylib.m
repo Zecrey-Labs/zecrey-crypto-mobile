@@ -231,7 +231,7 @@ RCT_EXPORT_METHOD(proveSwap:(NSString *)segmentInfo resolver:(RCTPromiseResolveB
 }
 
 RCT_EXPORT_METHOD(proveTransfer:(NSString *)assetId gasFee:(NSString*)gasFee memo:(NSString*)memo segmentInfosStr:(NSString*)segmentInfosStr resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject){
-    if ([self stringIsEmpty:assetId] || [self stringIsEmpty:gasFee] ||[self stringIsEmpty:memo] || [self stringIsEmpty:segmentInfosStr]) {
+    if ([self stringIsEmpty:assetId] || [self stringIsEmpty:gasFee] || [self stringIsEmpty:segmentInfosStr]) {
         reject(@"0",@"param not null",nil);
     }else{
         NSError * error = nil;
