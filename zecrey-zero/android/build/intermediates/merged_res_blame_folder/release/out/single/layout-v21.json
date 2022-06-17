@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/f40179e835d27ffae90edf8bdc014309/transformed/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/f40179e835d27ffae90edf8bdc014309/transformed/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/f40179e835d27ffae90edf8bdc014309/transformed/core-1.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/f40179e835d27ffae90edf8bdc014309/transformed/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

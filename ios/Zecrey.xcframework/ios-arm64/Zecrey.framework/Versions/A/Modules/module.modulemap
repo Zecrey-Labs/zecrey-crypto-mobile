@@ -1,8 +1,0 @@
-framework module "Zecrey" {
-	header "ref.h"
-    header "Zecrey.objc.h"
-    header "Universe.objc.h"
-    header "Zecrey.h"
-
-    export *
-}
