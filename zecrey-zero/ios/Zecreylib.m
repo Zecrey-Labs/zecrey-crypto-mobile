@@ -2,6 +2,7 @@
 
 #import "Zecreylib.h"
 #import <Zecrey/Zecrey.h>
+#import <Zecrey_legend/Zecrey_legend.h>
 #import <objc/message.h>
 @implementation Zecreylib
 
@@ -270,7 +271,20 @@ RCT_EXPORT_METHOD(proveWithdraw:(NSString *)segmentInfo resolver:(RCTPromiseReso
         }
     }
 }
+// legend
 
+RCT_EXPORT_METHOD(Zecrey_legendGetEddsaPublicKey:(NSString *)speed resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject){
+    if ([speed isEqul: @""]) {
+        reject(@"0",@"speed not null",nil);
+    }else{
+        NSString *result = Zecrey_legendGetEddsaPublicKey(@"ee823a72698fd05c70fbdf36ba2ea467d33cf628c94ef030383efcb39581e43f");
+        if (result) {
+            resolve(result)
+        }else{
+            reject(@"0",@"EddsaPublicKey error",nil)
+        }
+    }
+}
 
 @end
 
