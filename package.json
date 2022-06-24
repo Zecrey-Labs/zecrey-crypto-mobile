@@ -1,8 +1,8 @@
 {
-  "name": "com.zecrey.lib",
-  "title": "Com.zecrey.lib",
+  "name": "@zecrey/zecrey-crypto-mobile",
+  "tile": "@zecrey/zecrey-crypto-mobile",
   "version": "1.0.9",
-  "description": "TODO",
+  "description": "crypto module used in mobile app, ios and android",
   "main": "index.js",
   "files": [
     "README.md",
