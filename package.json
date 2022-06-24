@@ -1,7 +1,7 @@
 {
   "name": "@zecrey/zecrey-crypto-mobile",
   "tile": "@zecrey/zecrey-crypto-mobile",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "crypto module used in mobile app, ios and android",
   "main": "index.js",
   "files": [
