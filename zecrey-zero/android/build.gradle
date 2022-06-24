@@ -49,6 +49,7 @@ dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
     implementation(name:'zecrey',ext:'aar')
+    implementation(name:'zecrey_legend',ext:'aar')
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 }
 

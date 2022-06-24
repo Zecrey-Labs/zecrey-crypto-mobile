@@ -16,11 +16,11 @@ RCT_EXPORT_MODULE()
  the incoming string empty
  */
 - (BOOL)stringIsEmpty:(NSString *)string{
-    
+
     if (string == nil||string == NULL || [string isKindOfClass:[NSNull class]] || string.length == 0){
         return YES;
     }
-    
+
     NSCharacterSet *set = [NSCharacterSet whitespaceAndNewlineCharacterSet];
     NSString *trimmedString = [string stringByTrimmingCharactersInSet:set];
     if (!trimmedString.length) {
@@ -30,7 +30,7 @@ RCT_EXPORT_MODULE()
 }
 
 - (NSString *)classToJson:(id)className{
-    
+
     //get all property and value
     unsigned int count;
     NSMutableDictionary * props = [NSMutableDictionary dictionary];
@@ -45,7 +45,7 @@ RCT_EXPORT_MODULE()
         }
     }
     free(properties);
-    
+
     //transfer dictionary to json
     NSError * error ;
     NSMutableString * muStr = nil;
@@ -60,11 +60,11 @@ RCT_EXPORT_MODULE()
     }
     NSRange range = {0,jsonString.length};
     [muStr replaceOccurrencesOfString:@" " withString:@"" options:NSLiteralSearch range:range];
-    
+
     NSRange rangMu = {0,muStr.length};
     [muStr replaceOccurrencesOfString:@"\n" withString:@"" options:NSLiteralSearch range:rangMu];
     return muStr;
-    
+
 }
 
 
@@ -273,7 +273,7 @@ RCT_EXPORT_METHOD(proveWithdraw:(NSString *)segmentInfo resolver:(RCTPromiseReso
 }
 // legend
 
-RCT_EXPORT_METHOD(Zecrey_legendGetEddsaPublicKey:(NSString *)speed resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject){
+RCT_EXPORT_METHOD(getEddsaPublicKey:(NSString *)speed resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject){
     if ([speed isEqul: @""]) {
         reject(@"0",@"speed not null",nil);
     }else{

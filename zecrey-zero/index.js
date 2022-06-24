@@ -166,6 +166,17 @@ class ZecreyLibModules {
       })
     })
   }
+
+  static getEddsaPublicKey (seed){
+    return new Promise((resolve, reject)=>{
+      Zecreylib.getEddsaPublicKey(seed)
+          .then((result)=>{
+            resolve(result)
+          }).catch((error)=>{
+        reject(error)
+      })
+    })
+  }
 }
 
 export default ZecreyLibModules;
