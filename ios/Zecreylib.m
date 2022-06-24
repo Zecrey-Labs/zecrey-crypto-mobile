@@ -274,7 +274,7 @@ RCT_EXPORT_METHOD(proveWithdraw:(NSString *)segmentInfo resolver:(RCTPromiseReso
 
 
 RCT_EXPORT_METHOD(getEddsaPublicKey:(NSString *)speed resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject){
-    if ([speed isEqul: @""]) {
+    if ([self stringIsEmpty:speed] ) {
         reject(@"0",@"speed not null",nil);
     }else{
         NSString *result = Zecrey_legendGetEddsaPublicKey(speed);
@@ -288,4 +288,5 @@ RCT_EXPORT_METHOD(getEddsaPublicKey:(NSString *)speed resolver:(RCTPromiseResolv
 
 
 @end
+
 
