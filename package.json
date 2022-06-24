@@ -3,13 +3,10 @@
   "title": "Com.zecrey.lib",
   "version": "1.0.6",
   "description": "TODO",
-  "main": "index.js",
+  "main": "zecrey-zero/index.js",
   "files": [
-    "README.md",
-    "android",
-    "index.js",
-    "ios",
-    "com.zecrey.lib.podspec"
+    "zecrey-zero",
+    "zecrey-legend"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
