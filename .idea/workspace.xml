@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e965449d-90e5-4618-b6b3-d7708ccbd351" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/com.zecrey.lib.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/com.zecrey.lib.podspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Zecreylib.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Zecreylib.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +67,11 @@
       <option name="presentableId" value="Default" />
       <updated>1656052080522</updated>
       <workItem from="1656052082213" duration="526000" />
+      <workItem from="1656052621623" duration="151000" />
+      <workItem from="1656052816413" duration="342000" />
+      <workItem from="1656053174919" duration="602000" />
+      <workItem from="1656054247296" duration="4000" />
+      <workItem from="1656056477895" duration="10000" />
     </task>
     <servers />
   </component>
