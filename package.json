@@ -1,11 +1,15 @@
 {
-  "name": "@zecrey/zecrey-crypto-mobile",
-  "version": "1.0.7",
+  "name": "com.zecrey.lib",
+  "title": "Com.zecrey.lib",
+  "version": "1.0.8",
   "description": "TODO",
-  "main": "zecrey-zero/index.js",
+  "main": "index.js",
   "files": [
-    "zecrey-zero",
-    "zecrey-legend"
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "com.zecrey.lib.podspec"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
