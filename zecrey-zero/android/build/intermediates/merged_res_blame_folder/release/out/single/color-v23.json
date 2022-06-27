@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/926b498506824e57cbd42cc91232c69a/transformed/appcompat-1.0.2/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/926b498506824e57cbd42cc91232c69a/transformed/appcompat-1.0.2/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/926b498506824e57cbd42cc91232c69a/transformed/appcompat-1.0.2/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/926b498506824e57cbd42cc91232c69a/transformed/appcompat-1.0.2/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/926b498506824e57cbd42cc91232c69a/transformed/appcompat-1.0.2/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/926b498506824e57cbd42cc91232c69a/transformed/appcompat-1.0.2/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/926b498506824e57cbd42cc91232c69a/transformed/appcompat-1.0.2/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/926b498506824e57cbd42cc91232c69a/transformed/appcompat-1.0.2/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/zgy/Desktop/zecrey-mobile/node_modules/com.zecrey.lib/android/build/intermediates/merged_res/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/zgy/.gradle/caches/transforms-3/926b498506824e57cbd42cc91232c69a/transformed/appcompat-1.0.2/res/color-v23/abc_tint_seek_thumb.xml"
+    }
+]
