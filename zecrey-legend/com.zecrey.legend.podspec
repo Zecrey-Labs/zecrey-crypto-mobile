@@ -11,14 +11,14 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   com.zecrey.legend
                    DESC
-  s.homepage     = "https://github.com/Zecrey-Labs/zecrey-crypto-legend.git"
+  s.homepage     = "git+https://github.com/Zecrey-Labs/zecrey-legend-crypto-mobile.git"
   # brief license entry:
   s.license      = "MIT"
   # optional - use expanded license entry instead:
   # s.license    = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "Your Name" => "yourname@email.com" }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "git@github.com:Zecrey-Labs/zecrey-crypto-legend.git",:branch => "main" }
+  s.source       = { :git => "git+https://github.com/Zecrey-Labs/zecrey-legend-crypto-mobile.git",:branch => "main" }
 
   s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift}"
   s.requires_arc = true
