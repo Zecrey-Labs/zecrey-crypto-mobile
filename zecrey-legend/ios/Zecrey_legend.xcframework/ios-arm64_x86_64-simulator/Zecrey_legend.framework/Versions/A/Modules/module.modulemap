@@ -1,0 +1,8 @@
+framework module "Zecrey_legend" {
+	header "ref.h"
+    header "Zecrey_legend.objc.h"
+    header "Universe.objc.h"
+    header "Zecrey_legend.h"
+
+    export *
+}
