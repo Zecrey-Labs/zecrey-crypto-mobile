@@ -11,13 +11,19 @@
 #include "Universe.objc.h"
 
 
+FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendCleanPackedAmount(NSString* _Nullable amountStr, NSError* _Nullable* _Nullable error);
+
+FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendCleanPackedFee(NSString* _Nullable amountStr, NSError* _Nullable* _Nullable error);
+
 FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendComputeAccountNameHash(NSString* _Nullable accountName, NSError* _Nullable* _Nullable error);
 
-FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendGenerateEddsaKey(NSString* _Nullable seed);
+FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendGenerateEddsaKey(NSString* _Nullable seed, NSError* _Nullable* _Nullable error);
 
 FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendGetAccountNameHash(NSString* _Nullable accountName, NSError* _Nullable* _Nullable error);
 
-FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendGetEddsaPublicKey(NSString* _Nullable seed);
+FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendGetEddsaCompressedPublicKey(NSString* _Nullable seed, NSError* _Nullable* _Nullable error);
+
+FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendGetEddsaPublicKey(NSString* _Nullable seed, NSError* _Nullable* _Nullable error);
 
 FOUNDATION_EXPORT NSData* _Nullable Zecrey_legendKeccakHash(NSData* _Nullable value);
 
