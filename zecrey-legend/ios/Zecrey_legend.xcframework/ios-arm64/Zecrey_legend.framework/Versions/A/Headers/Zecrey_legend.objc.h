@@ -25,6 +25,8 @@ FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendGetEddsaCompressedPublicKey(NS
 
 FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendGetEddsaPublicKey(NSString* _Nullable seed, NSError* _Nullable* _Nullable error);
 
+FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendGetPrivateKey(NSString* _Nullable seed, NSError* _Nullable* _Nullable error);
+
 FOUNDATION_EXPORT NSData* _Nullable Zecrey_legendKeccakHash(NSData* _Nullable value);
 
 FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendSignAddLiquidity(NSString* _Nullable seed, NSString* _Nullable segmentInfo, NSError* _Nullable* _Nullable error);
