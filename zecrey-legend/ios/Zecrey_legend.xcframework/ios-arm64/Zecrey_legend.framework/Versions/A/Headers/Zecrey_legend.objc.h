@@ -17,6 +17,10 @@ FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendCleanPackedFee(NSString* _Null
 
 FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendComputeAccountNameHash(NSString* _Nullable accountName, NSError* _Nullable* _Nullable error);
 
+FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendEddsaSign(NSString* _Nullable seed, NSString* _Nullable msg, NSError* _Nullable* _Nullable error);
+
+FOUNDATION_EXPORT BOOL Zecrey_legendEddsaVerify(NSString* _Nullable pkStr, NSString* _Nullable signatureStr, NSString* _Nullable msgStr, BOOL* _Nullable isValid, NSError* _Nullable* _Nullable error);
+
 FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendGenerateEddsaKey(NSString* _Nullable seed, NSError* _Nullable* _Nullable error);
 
 FOUNDATION_EXPORT NSString* _Nonnull Zecrey_legendGetAccountNameHash(NSString* _Nullable accountName, NSError* _Nullable* _Nullable error);
